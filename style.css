@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  text-rendering: optimizeLegibility;
+  image-rendering: optimizeSpeed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+  font-family: Inter;
+  width: 100%;
+  height: 100%;
+}
+
+:root {
+  --dark10: #09090a;
+  --dark20: #ebebeb;
+  --dark30: #f9f9f9;
+  --dark40: #ffffff;
+
+  --support01: #2962ff;
+  --support02: #0bb07b;
+  --support03: #ffce52;
+  --support04: #f03d3d;
+  --support05: #e0e0e0;
+
+  --brand-color: #3772ff;
+}
+
+.main-container {
+  /* border: 10px solid red; */
+  margin: 28px 100px;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--dark10);
+  text-decoration: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-bar input {
+  width: 644px;
+  height: 40px;
+  padding: 20px 8px;
+  border-radius: 4px;
+  margin: 40px;
+  font-family: Inter;
+  background-color: var(--dark20);
+  border: none;
+}
+
+.login {
+  width: 188px;
+  height: 40px;
+  text-align: center;
+  margin-right: 20px;
+  font-family: Inter;
+  cursor: pointer;
+  font-size: 1rem;
+  font-family: Inter;
+  padding: 24px 8px;
+  border-radius: 4px;
+  color: var(--dark30);
+  background-color: var(--support01);
+  border-color: none;
+  font-weight: 600;
+  letter-spacing: 2px;
+  line-height: 1px;
+  border: none;
+}
