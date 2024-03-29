@@ -61,7 +61,7 @@ html {
   border: none;
 }
 
-.login {
+.btn {
   width: 188px;
   height: 40px;
   text-align: center;
@@ -79,4 +79,59 @@ html {
   letter-spacing: 2px;
   line-height: 1px;
   border: none;
+}
+
+.content {
+  /* border: 10px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-top: 34px;
+  padding: 20px;
+}
+
+.main-title {
+  color: var(--dark10);
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.main-title span {
+  display: block;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.details {
+  font-weight: 400;
+  font-size: 24px;
+  color: #737373;
+}
+
+.content .btn {
+  margin-top: 23px;
+}
+
+.description-section {
+  display: flex;
+  margin-top: 1.8rem;
+  margin-right: 30px;
+  font-size: 21px;
+}
+
+.description-section span {
+  display: block;
+  font-weight: 400;
+  color: gray;
+  margin-right: 8px;
+}
+
+.gallery-container {
+  width: 396px;
+  height: 436px;
+  border: 4px;
+}
+
+.gallery-container img {
+  max-width: 100%;
+  object-fit: cover;
 }
