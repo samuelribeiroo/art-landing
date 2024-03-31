@@ -33,7 +33,7 @@ html {
 }
 
 .main-container {
-  /* border: 10px solid red; */
+  border: 10px solid red;
   margin: 28px 100px;
 }
 
@@ -136,6 +136,7 @@ html {
 }
 
 .gallery-container {
+  margin-top: 40px;
   width: 396px;
   height: 436px;
   border: 4px;
@@ -155,12 +156,13 @@ html {
 .img-container {
   width: 200px;
   height: 194px;
+  max-width: 100%;
   border-radius: 4px;
   margin-left: 30px;
 }
 
 .txt-container {
-  margin-left: 90px;
+  margin-left: 210px;
 }
 
 .title-text {
@@ -172,4 +174,46 @@ html {
 .title-text span {
   display: block;
   margin-bottom: 30px;
+}
+
+.artist-container {
+  display: flex;
+  margin: 28px 0px;
+}
+
+.artist-img {
+  width: 376px;
+  height: 484px;
+  max-width: 100%;
+  /* margin-left: 5px; */
+  border-radius: 4px;
+  margin-left: 60px;
+}
+
+.artist-title {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+.footer-itens {
+  display: inline-block;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 500;
+  list-style-type: none;
+}
+
+.footer-itens:hover {
+  color: var(--support02);
+  transition: all ease-in-out 0.5ms;
+  cursor: pointer;
 }
