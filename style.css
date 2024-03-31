@@ -87,7 +87,6 @@ html {
 }
 
 .content {
-  /* border: 10px solid red; */
   display: flex;
   justify-content: space-between;
   margin-top: 34px;
@@ -145,4 +144,32 @@ html {
 .gallery-container img {
   max-width: 100%;
   object-fit: cover;
+}
+
+.image-content {
+  /* border: 10px solid red; */
+  margin-top: 30px;
+  display: flex;
+}
+
+.img-container {
+  width: 200px;
+  height: 194px;
+  border-radius: 4px;
+  margin-left: 30px;
+}
+
+.txt-container {
+  margin-left: 90px;
+}
+
+.title-text {
+  font-weight: 500;
+  font-size: 2rem;
+  letter-spacing: 1px;
+}
+
+.title-text span {
+  display: block;
+  margin-bottom: 30px;
 }
