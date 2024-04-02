@@ -18,29 +18,24 @@ html {
 }
 
 :root {
-  --dark10: #09090a;
-  --dark20: #ebebeb;
-  --dark30: #f9f9f9;
-  --dark40: #ffffff;
-
-  --support01: #2962ff;
-  --support02: #737373;
-  --support03: #ffce52;
-  --support04: #f03d3d;
-  --support05: #e0e0e0;
-
-  --brand-color: #3772ff;
+  --black-medium: #09090a;
+  --medium-gray: #ebebeb;
+  --dark-gray: #f9f9f9;
+  --medium-blue: #2962ff;
+  --low-gray: #737373;
+  --font400: 400;
+  --font500: 500;
+  --font600: 600;
 }
 
 .main-container {
-  border: 10px solid red;
   margin: 28px 100px;
 }
 
 .logo {
   font-size: 2rem;
-  font-weight: 600;
-  color: var(--dark10);
+  font-weight: var(--font600);
+  color: var(--black-medium);
   text-decoration: none;
 }
 
@@ -57,7 +52,7 @@ html {
   border-radius: 4px;
   margin: 40px;
   font-family: Inter;
-  background-color: var(--dark20);
+  background-color: var(--medium-gray);
   border: none;
 }
 
@@ -72,10 +67,10 @@ html {
   font-family: Inter;
   padding: 24px 8px;
   border-radius: 4px;
-  color: var(--dark30);
-  background-color: var(--support01);
+  color: var(--dark-gray);
+  background-color: var(--medium-blue);
   border-color: none;
-  font-weight: 600;
+  font-weight: var(--font600);
   letter-spacing: 2px;
   line-height: 1px;
   border: none;
@@ -94,9 +89,9 @@ html {
 }
 
 .main-title {
-  color: var(--dark10);
+  color: var(--black-medium);
   font-size: 48px;
-  font-weight: 600;
+  font-weight: var(--font600);
 }
 
 .main-title span {
@@ -106,9 +101,9 @@ html {
 }
 
 .details {
-  font-weight: 400;
+  font-weight: var(--font400);
   font-size: 24px;
-  color: var(--support02);
+  color: var(--low-gray);
 }
 
 .content .btn {
@@ -129,9 +124,9 @@ html {
 .description-section span {
   display: block;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: var(--font400);
   text-align: center;
-  color: var(--support02);
+  color: var(--low-gray);
   margin-right: 8px;
 }
 
@@ -148,7 +143,6 @@ html {
 }
 
 .image-content {
-  /* border: 10px solid red; */
   margin-top: 30px;
   display: flex;
 }
@@ -166,7 +160,7 @@ html {
 }
 
 .title-text {
-  font-weight: 500;
+  font-weight: var(--font500);
   font-size: 2rem;
   letter-spacing: 1px;
 }
@@ -185,14 +179,13 @@ html {
   width: 376px;
   height: 484px;
   max-width: 100%;
-  /* margin-left: 5px; */
   border-radius: 4px;
   margin-left: 60px;
 }
 
 .artist-title {
   font-size: 2.5rem;
-  font-weight: 500;
+  font-weight: var(--font500);
   margin-top: 40px;
   margin-bottom: 40px;
 }
@@ -208,12 +201,15 @@ html {
   display: inline-block;
   padding: 10px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: var(--font500);
   list-style-type: none;
+  margin-bottom: 25px;
 }
 
 .footer-itens:hover {
-  color: var(--support02);
+  color: var(--low-gray);
   transition: all ease-in-out 0.5ms;
   cursor: pointer;
 }
+
+/* Next feat: Media queries with responsive design. */
