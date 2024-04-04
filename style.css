@@ -130,13 +130,6 @@ html {
   margin-right: 8px;
 }
 
-.gallery-container {
-  margin-top: 40px;
-  width: 396px;
-  height: 436px;
-  border: 4px;
-}
-
 .gallery-container img {
   max-width: 100%;
   object-fit: cover;
@@ -188,6 +181,7 @@ html {
   font-weight: var(--font500);
   margin-top: 40px;
   margin-bottom: 40px;
+  margin-left: 7px;
 }
 
 .footer {
@@ -212,4 +206,36 @@ html {
   cursor: pointer;
 }
 
-/* Next feat: Media queries with responsive design. */
+@media screen and (max-width: 768px) {
+  .img01 {
+    display: none;
+  }
+  .image-content {
+    width: 312px;
+    height: 200px;
+    margin-bottom: 480px;
+  }
+  .artist-container,
+  .image-content,
+  img,
+  #img01 {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    padding: 10px;
+  }
+  .artist-title {
+    margin-left: 80px;
+    margin-top: 180px;
+  }
+  #img01 {
+    width: 376px;
+    height: 484px;
+    margin-left: 60px;
+  }
+}
+
+/*
+❌Next feat: Media queries with responsive design. 
+✅ (CORRIGIDO) Layout quebrando em prod.
+*/
