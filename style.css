@@ -128,6 +128,7 @@ html {
   text-align: center;
   color: var(--low-gray);
   margin-right: 8px;
+  margin-top: 6px;
 }
 
 .gallery-container img {
@@ -138,6 +139,8 @@ html {
 .image-content {
   margin-top: 30px;
   display: flex;
+  margin-left: px;
+  place-items: start;
 }
 
 .img-container {
@@ -149,7 +152,8 @@ html {
 }
 
 .txt-container {
-  margin-left: 210px;
+  margin-top: 30px;
+  margin-left: 120px;
 }
 
 .title-text {
@@ -164,8 +168,9 @@ html {
 }
 
 .artist-container {
-  display: flex;
-  margin: 28px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
 }
 
 .artist-img {
@@ -173,7 +178,6 @@ html {
   height: 484px;
   max-width: 100%;
   border-radius: 4px;
-  margin-left: 60px;
 }
 
 .artist-title {
@@ -181,7 +185,7 @@ html {
   font-weight: var(--font500);
   margin-top: 40px;
   margin-bottom: 40px;
-  margin-left: 7px;
+  text-align: left;
 }
 
 .footer {
