@@ -231,6 +231,11 @@ html {
   }
 }
 
+@media screen and (min-width: 600px) {
+  .responsive-alert {
+    display: none;
+  }
+}
 
 /*
 ❌Next feat: Media queries with responsive design. 
