@@ -209,35 +209,28 @@ html {
   transition: all ease-in-out 0.5ms;
   cursor: pointer;
 }
-
+/* Gambiarra, vai ser refatorado. */
 @media screen and (max-width: 768px) {
-  .img01 {
+  .main-container,
+  .header,
+  .content,
+  .image-content,
+  .artist-title,
+  .artist-container,
+  .footer {
     display: none;
   }
-  .image-content {
-    width: 312px;
-    height: 200px;
-    margin-bottom: 480px;
-  }
-  .artist-container,
-  .image-content,
-  img,
-  #img01 {
-    display: grid;
-    grid-template-columns: 1fr;
-    place-items: center;
-    padding: 10px;
-  }
-  .artist-title {
-    margin-left: 80px;
-    margin-top: 180px;
-  }
-  #img01 {
-    width: 376px;
-    height: 484px;
-    margin-left: 60px;
+
+  .responsive-alert {
+    font-size: 1.5rem;
+    text-align: center;
+    position: absolute;
+    margin-top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
+
 
 /*
 ❌Next feat: Media queries with responsive design. 
