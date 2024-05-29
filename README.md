@@ -4,6 +4,6 @@ simple landing page made to apply best frontends practices like html semantic ta
 
 - O design do figma é fornecido por [IuriCode](https://github.com/iuricode) 
 
-- Conheça mais sobre os challenges em: [Codelândia](https://github.com/iuricode/desafios-frontend)
+- Conheça mais sobre os challenges em: [CodeLab](https://github.com/iuricode/desafios-frontend)
 
 - Deploy: [Art Landing Page](https://art-landing-zeta.vercel.app/)
